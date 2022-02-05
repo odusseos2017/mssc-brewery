@@ -1,2 +1,1 @@
-# mssc-brewery
-Spring MVC Brewery Microservice
+# mssc-brewery : new README file
