@@ -32,6 +32,8 @@ public class BeerController {
 		return new ResponseEntity<>(beerService.getBeerById(beerId), HttpStatus.OK);
 	}
 	
+	
+	
 	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@PostMapping
 	public ResponseEntity createBeer(@RequestBody BeerDto beerDto){
